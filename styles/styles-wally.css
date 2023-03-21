@@ -1,0 +1,342 @@
+/* Font Inter for Wally */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+/* Import variables from figma */
+@import ".././build/css/variables.css";
+
+/* Color Styles */
+
+/* ------ GROUP - cool-gray */
+/* Background */
+.bg-cool-gray-50 {
+    background-color: var(--w-cool-gray-50);
+}
+.bg-cool-gray-100 {
+    background-color: var(--w-cool-gray-100);
+}
+.bg-cool-gray-200 {
+    background-color: var(--w-cool-gray-200);
+}
+.bg-cool-gray-300 {
+    background-color: var(--w-cool-gray-300);
+}
+.bg-cool-gray-400 {
+    background-color: var(--w-cool-gray-400);
+}
+.bg-cool-gray-500 {
+    background-color: var(--w-cool-gray-500);
+}
+.bg-cool-gray-600 {
+    background-color: var(--w-cool-gray-600);
+}
+.bg-cool-gray-700 {
+    background-color: var(--w-cool-gray-700);
+}
+/* Color */
+.c-cool-gray-50 {
+    color: var(--w-cool-gray-50);
+}
+.c-cool-gray-100 {
+    color: var(--w-cool-gray-100);
+}
+.c-cool-gray-200 {
+    color: var(--w-cool-gray-200);
+}
+.c-cool-gray-300 {
+    color: var(--w-cool-gray-300);
+}
+.c-cool-gray-400 {
+    color: var(--w-cool-gray-400);
+}
+.c-cool-gray-500 {
+    color: var(--w-cool-gray-500);
+}
+.c-cool-gray-600 {
+    color: var(--w-cool-gray-600);
+}
+.c-cool-gray-700 {
+    color: var(--w-cool-gray-700);
+}
+
+
+/* ------ GROUP - green */
+/* Background */
+.bg-green-50 {
+    background-color: var(--w-green-50);
+}
+.bg-green-100 {
+    background-color: var(--w-green-100);
+}
+.bg-green-200 {
+    background-color: var(--w-green-200);
+}
+.bg-green-300 {
+    background-color: var(--w-green-300);
+}
+/* Color */
+.c-green-50 {
+    color: var(--w-green-50);
+}
+.c-green-100 {
+    color: var(--w-green-100);
+}
+.c-green-200 {
+    color: var(--w-green-200);
+}
+.c-green-300 {
+    color: var(--w-green-300);
+}
+
+
+/* ------ GROUP - blue */
+/* Background */
+.bg-blue-50 {
+    background-color: var(--w-blue-50);
+}
+.bg-blue-100 {
+    background-color: var(--w-blue-100);
+}
+.bg-blue-200 {
+    background-color: var(--w-blue-200);
+}
+.bg-blue-300 {
+    background-color: var(--w-blue-300);
+}
+/* Color */
+.c-blue-50 {
+    color: var(--w-blue-50);
+}
+.c-blue-100 {
+    color: var(--w-blue-100);
+}
+.c-blue-200 {
+    color: var(--w-blue-200);
+}
+.c-blue-300 {
+    color: var(--w-blue-300);
+}
+
+
+/* ------ GROUP - red */
+/* Background */
+.bg-red-50 {
+    background-color: var(--w-red-50);
+}
+.bg-red-100 {
+    background-color: var(--w-red-100);
+}
+.bg-red-200 {
+    background-color: var(--w-red-200);
+}
+.bg-red-300 {
+    background-color: var(--w-red-300);
+}
+/* Color */
+.c-red-50 {
+    color: var(--w-red-50);
+}
+.c-red-100 {
+    color: var(--w-red-100);
+}
+.c-red-200 {
+    color: var(--w-red-200);
+}
+.c-red-300 {
+    color: var(--w-red-300);
+}
+
+
+/* ------ GROUP - yellow */
+/* Background */
+.bg-yellow-50 {
+    background-color: var(--w-yellow-50);
+}
+.bg-yellow-100 {
+    background-color: var(--w-yellow-100);
+}
+.bg-yellow-200 {
+    background-color: var(--w-yellow-200);
+}
+.bg-yellow-300 {
+    background-color: var(--w-yellow-300);
+}
+/* Color */
+.c-yellow-50 {
+    color: var(--w-yellow-50);
+}
+.c-yellow-100 {
+    color: var(--w-yellow-100);
+}
+.c-yellow-200 {
+    color: var(--w-yellow-200);
+}
+.c-yellow-300 {
+    color: var(--w-yellow-300);
+}
+
+
+/* ------ GROUP - complementary */
+/* Background */
+.bg-light-blue {
+    background-color: var(--w-light-blue);
+}
+.bg-scarlet {
+    background-color: var(--w-scarlet);
+}
+.bg-amber {
+    background-color: var(--w-amber);
+}
+/* Color */
+.c-light-blue {
+    color: var(--w-light-blue);
+}
+.c-scarlet {
+    color: var(--w-scarlet);
+}
+.c-amber {
+    color: var(--w-amber);
+}
+
+
+/* Typography class */
+.text-5xl-bold {
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 700;
+}
+.text-5xl-regular {
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 400;
+}
+
+.text-4xl-bold {
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+}
+.text-4xl-regular {
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+.text-3xl-bold {
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+}
+.text-3xl-regular {
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+.text-2xl-bold {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+}
+.text-2xl-regular {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.text-xl-bold {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+}
+.text-xl-regular {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.text-xl-bold {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+}
+.text-xl-regular {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.text-lg-bold {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+}
+.text-lg-regular {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.text-base-bold {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.text-base-regular {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.text-sm-bold {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+}
+.text-sm-regular {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.text-xs-bold {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 700;
+}
+.text-xs-regular {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+.text-small-bold {
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 700;
+}
+.text-small-regular {
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 400;
+}

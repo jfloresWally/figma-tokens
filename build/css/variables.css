@@ -1,0 +1,46 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 21 Mar 2023 15:59:09 GMT
+ */
+
+:root {
+  --color-base-gray-light: #cccccc;
+  --color-base-gray-medium: #999999;
+  --color-base-gray-dark: #111111;
+  --color-base-red: #ff0000;
+  --color-base-green: #00ff00;
+  --color-font-base: #ff0000;
+  --color-font-secondary: #00ff00;
+  --color-font-tertiary: #cccccc;
+  --size-font-small: 0.75rem; /* the small size of the font */
+  --size-font-medium: 1rem; /* the medium size of the font */
+  --size-font-large: 2rem; /* the large size of the font */
+  --size-font-base: 1rem; /* the base size of the font */
+  --w-cool-gray-50: #FFFFFF;
+  --w-cool-gray-100: #F9FAFB;
+  --w-cool-gray-200: #F3F4F6;
+  --w-cool-gray-300: #E5E7EB;
+  --w-cool-gray-400: #D1D5DB;
+  --w-cool-gray-500: #6B7280;
+  --w-cool-gray-600: #374151;
+  --w-cool-gray-700: #12131F;
+  --w-green-50: #E7F8EE;
+  --w-green-100: #A2E7BF;
+  --w-green-200: #25B562;
+  --w-green-300: #1A6B3C;
+  --w-blue-50: #EFF6FF;
+  --w-blue-100: #BFDBFE;
+  --w-blue-200: #3B82F6;
+  --w-blue-300: #1D4ED8;
+  --w-red-50: #FEF2F2;
+  --w-red-100: #FECACA;
+  --w-red-200: #EF4444;
+  --w-red-300: #B91C1C;
+  --w-yellow-50: #FEFCE8;
+  --w-yellow-100: #FEF08A;
+  --w-yellow-200: #EAB308;
+  --w-yellow-300: #A16207;
+  --w-light-blue: #3293CF;
+  --w-scarlet: #F65E47;
+  --w-amber: #FDC980;
+}
